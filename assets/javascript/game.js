@@ -5,11 +5,12 @@
 //need to be able to restart game after a win or a loss
 
 var words = ["modern warfare", "activision", "search and destroy", "infinity ward", "deathmatch"];
+var letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var wins = 0;
 var losses = 0;
 var guessesLeft = 15;
 var guesses = [];
-var computerGuess = 0;
+var winningWord = [];
 var userGuess = 0;
 
 var winsText = document.getElementById("wins-text");
